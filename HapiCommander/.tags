@@ -1,0 +1,240 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CACHED_NUMBER	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private static final int CACHED_NUMBER = 100;$/;"	f	class:FileDataProvider	file:
+DATABASE_FILE	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private static final String DATABASE_FILE       =       "filecache.db";$/;"	f	class:FileCacheDB	file:
+DIRECTORY_TYPE	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public static final int    DIRECTORY_TYPE              =       0;$/;"	f	class:FileCacheDB
+FILE_NAME_COL	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private static final String FILE_NAME_COL               =       "name";$/;"	f	class:FileCacheDB	file:
+FILE_NAME_COL_INDEX	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public static final int  FILE_NAME_COL_INDEX         =       0;$/;"	f	class:FileCacheDB
+FILE_TYPE	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public static final int    FILE_TYPE                   =       1;$/;"	f	class:FileCacheDB
+FileCacheDB	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private FileCacheDB(Context context)$/;"	m	class:FileCacheDB	file:
+FileCacheDB	.\src\com\hapi\hapicommander\FileCacheDB.java	/^public class FileCacheDB$/;"	c
+FileComparator	.\src\com\hapi\hapicommander\FileComparator.java	/^	public FileComparator()$/;"	m	class:FileComparator
+FileComparator	.\src\com\hapi\hapicommander\FileComparator.java	/^	public FileComparator(Types type)$/;"	m	class:FileComparator
+FileComparator	.\src\com\hapi\hapicommander\FileComparator.java	/^public class FileComparator implements Comparator<File> $/;"	c
+FileDataProvider	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public FileDataProvider(Context context) $/;"	m	class:FileDataProvider
+FileDataProvider	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public FileDataProvider(Context context,String path) $/;"	m	class:FileDataProvider
+FileDataProvider	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public FileDataProvider(Context context,String path,int order_by) $/;"	m	class:FileDataProvider
+FileDataProvider	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public FileDataProvider(Context context,String path,int order_by,FileFilter filter) $/;"	m	class:FileDataProvider
+FileDataProvider	.\src\com\hapi\hapicommander\FileDataProvider.java	/^public class FileDataProvider $/;"	c
+FileListAdapter	.\src\com\hapi\hapicommander\FileListAdapter.java	/^	public FileListAdapter(Context context,int resource,FileDataProvider provider)$/;"	m	class:FileListAdapter
+FileListAdapter	.\src\com\hapi\hapicommander\FileListAdapter.java	/^public class FileListAdapter extends BaseAdapter$/;"	c
+FileListEntry	.\src\com\hapi\hapicommander\FileListEntry.java	/^	public FileListEntry(File dir,String name,boolean is_mark)$/;"	m	class:FileListEntry
+FileListEntry	.\src\com\hapi\hapicommander\FileListEntry.java	/^public class FileListEntry$/;"	c
+HapiCommander	.\src\com\hapi\hapicommander\HapiCommander.java	/^public class HapiCommander extends Activity $/;"	c
+LAST_MODIFY_COL	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private static final String LAST_MODIFY_COL             =       "last_modify";$/;"	f	class:FileCacheDB	file:
+LAST_MODIFY_COL_INDEX	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public static final int  LAST_MODIFY_COL_INDEX       =       3;$/;"	f	class:FileCacheDB
+LOG_TAG	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private static final String LOG_TAG              =       "FileCacheDB";$/;"	f	class:FileCacheDB	file:
+LOG_TAG	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private final static String LOG_TAG = "FileDataProvider";$/;"	f	class:FileDataProvider	file:
+LOG_TAG	.\src\com\hapi\hapicommander\FileListAdapter.java	/^	private final static String LOG_TAG = "HapiCommander";$/;"	f	class:FileListAdapter	file:
+LOG_TAG	.\src\com\hapi\hapicommander\HapiCommander.java	/^	private final static String LOG_TAG = "HapiCommander";$/;"	f	class:HapiCommander	file:
+MARK_COL	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private static final String MARK_COL                    =       "mark";$/;"	f	class:FileCacheDB	file:
+MARK_COL_INDEX	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public static final int  MARK_COL_INDEX              =       4;$/;"	f	class:FileCacheDB
+MimeTypeItem	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^        public MimeTypeItem(String mimetype,int icon)$/;"	m	class:MimeTypeMap.MimeTypeItem
+MimeTypeItem	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^    private class MimeTypeItem$/;"	c	class:MimeTypeMap
+MimeTypeMap	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^    private MimeTypeMap() $/;"	m	class:MimeTypeMap	file:
+MimeTypeMap	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^public class MimeTypeMap $/;"	c
+NAME	.\src\com\hapi\hapicommander\FileComparator.java	/^		NAME, $/;"	e	enum:FileComparator.Types	file:
+ORDER_BY_NAME	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public static final String ORDER_BY_NAME       =       TYPE_COL + "," + FILE_NAME_COL;$/;"	f	class:FileCacheDB
+ORDER_BY_NAME	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public static final int ORDER_BY_NAME = 0;$/;"	f	class:FileDataProvider
+ORDER_BY_SIZE	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public static final String ORDER_BY_SIZE       =       TYPE_COL + "," + SIZE_COL;$/;"	f	class:FileCacheDB
+ORDER_BY_SIZE	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public static final int ORDER_BY_SIZE = 1;$/;"	f	class:FileDataProvider
+OnDetailsTypeGetRowView	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    private static class OnDetailsTypeGetRowView implements OnGetRowView$/;"	c	class:FileListAdapter
+OnGetRowView	.\src\com\hapi\hapicommander\FileListAdapter.java	/^	public interface OnGetRowView $/;"	i	class:FileListAdapter
+OnListTypeGetRowView	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    private  class OnListTypeGetRowView implements OnGetRowView$/;"	c	class:FileListAdapter
+R	.\gen\com\hapi\hapicommander\R.java	/^public final class R {$/;"	c
+SIZE	.\src\com\hapi\hapicommander\FileComparator.java	/^		SIZE;$/;"	e	enum:FileComparator.Types	file:
+SIZE_COL	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private static final String SIZE_COL                    =       "size";$/;"	f	class:FileCacheDB	file:
+SIZE_COL_INDEX	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public static final int  SIZE_COL_INDEX              =       2;$/;"	f	class:FileCacheDB
+TABLE_NAME	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private static final String TABLE_NAME          =       "file_tb";$/;"	f	class:FileCacheDB	file:
+TYPE_COL	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private static final String TYPE_COL                    =       "type";$/;"	f	class:FileCacheDB	file:
+TYPE_COL_INDEX	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public static final int  TYPE_COL_INDEX              =       1;$/;"	f	class:FileCacheDB
+Types	.\src\com\hapi\hapicommander\FileComparator.java	/^	public static enum Types$/;"	g	class:FileComparator
+add	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public  long add(File c)$/;"	m	class:FileCacheDB
+app_name	.\gen\com\hapi\hapicommander\R.java	/^        public static final int app_name=0x7f050001;$/;"	f	class:R.string
+attr	.\gen\com\hapi\hapicommander\R.java	/^    public static final class attr {$/;"	c	class:R
+audio_file	.\gen\com\hapi\hapicommander\R.java	/^        public static final int audio_file=0x7f020000;$/;"	f	class:R.drawable
+beginTransaction	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public void beginTransaction()$/;"	m	class:FileCacheDB
+bg	.\gen\com\hapi\hapicommander\R.java	/^        public static final int bg=0x7f020001;$/;"	f	class:R.drawable
+clear	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public boolean clear()$/;"	m	class:FileCacheDB
+clearCache	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private void clearCache()$/;"	m	class:FileDataProvider	file:
+clearCursor	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private void clearCursor()$/;"	m	class:FileDataProvider	file:
+clearPreCompiledStatement	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private void clearPreCompiledStatement()$/;"	m	class:FileCacheDB	file:
+close	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public void close()$/;"	m	class:FileCacheDB
+closeInserter	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private void closeInserter()$/;"	m	class:FileCacheDB	file:
+com.hapi.hapicommander	.\gen\com\hapi\hapicommander\R.java	/^package com.hapi.hapicommander;$/;"	p
+com.hapi.hapicommander	.\src\com\hapi\hapicommander\FileCacheDB.java	/^package com.hapi.hapicommander;$/;"	p
+com.hapi.hapicommander	.\src\com\hapi\hapicommander\FileComparator.java	/^package com.hapi.hapicommander;$/;"	p
+com.hapi.hapicommander	.\src\com\hapi\hapicommander\FileDataProvider.java	/^package com.hapi.hapicommander;$/;"	p
+com.hapi.hapicommander	.\src\com\hapi\hapicommander\FileListAdapter.java	/^package com.hapi.hapicommander;$/;"	p
+com.hapi.hapicommander	.\src\com\hapi\hapicommander\FileListEntry.java	/^package com.hapi.hapicommander;$/;"	p
+com.hapi.hapicommander	.\src\com\hapi\hapicommander\HapiCommander.java	/^package com.hapi.hapicommander;$/;"	p
+com.hapi.hapicommander	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^package com.hapi.hapicommander;$/;"	p
+common_file	.\gen\com\hapi\hapicommander\R.java	/^        public static final int common_file=0x7f020002;$/;"	f	class:R.drawable
+compare	.\src\com\hapi\hapicommander\FileComparator.java	/^	public int compare(File file, File compared) $/;"	m	class:FileComparator
+compare_name	.\src\com\hapi\hapicommander\FileComparator.java	/^	private int compare_name(File file, File compared) $/;"	m	class:FileComparator	file:
+compare_size	.\src\com\hapi\hapicommander\FileComparator.java	/^	private int compare_size(File file, File compared) $/;"	m	class:FileComparator	file:
+compare_type	.\src\com\hapi\hapicommander\FileComparator.java	/^	private int compare_type(File file, File compared) $/;"	m	class:FileComparator	file:
+copy	.\gen\com\hapi\hapicommander\R.java	/^        public static final int copy=0x7f050007;$/;"	f	class:R.string
+copy_marks	.\gen\com\hapi\hapicommander\R.java	/^        public static final int copy_marks=0x7f05000f;$/;"	f	class:R.string
+createInserter	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private void createInserter()$/;"	m	class:FileCacheDB	file:
+createPreCompiledStatement	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private void createPreCompiledStatement()$/;"	m	class:FileCacheDB	file:
+createTable	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public void createTable()$/;"	m	class:FileCacheDB
+createViewFromResource	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    private View createViewFromResource(int position, View convertView, ViewGroup parent, int resource) $/;"	m	class:FileListAdapter	file:
+create_dir	.\gen\com\hapi\hapicommander\R.java	/^        public static final int create_dir=0x7f050005;$/;"	f	class:R.string
+cust_title	.\gen\com\hapi\hapicommander\R.java	/^        public static final int cust_title=0x7f030000;$/;"	f	class:R.layout
+cut	.\gen\com\hapi\hapicommander\R.java	/^        public static final int cut=0x7f050008;$/;"	f	class:R.string
+cut_marks	.\gen\com\hapi\hapicommander\R.java	/^        public static final int cut_marks=0x7f050010;$/;"	f	class:R.string
+db_file	.\gen\com\hapi\hapicommander\R.java	/^        public static final int db_file=0x7f020003;$/;"	f	class:R.drawable
+delete	.\gen\com\hapi\hapicommander\R.java	/^        public static final int delete=0x7f050002;$/;"	f	class:R.string
+delete	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public boolean delete(String name)$/;"	m	class:FileCacheDB
+delete	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public boolean delete(int position)$/;"	m	class:FileDataProvider
+delete_all	.\gen\com\hapi\hapicommander\R.java	/^        public static final int delete_all=0x7f050003;$/;"	f	class:R.string
+delete_marks	.\gen\com\hapi\hapicommander\R.java	/^        public static final int delete_marks=0x7f05000e;$/;"	f	class:R.string
+details	.\gen\com\hapi\hapicommander\R.java	/^        public static final int details=0x7f050006;$/;"	f	class:R.string
+drawable	.\gen\com\hapi\hapicommander\R.java	/^    public static final class drawable {$/;"	c	class:R
+ebk_file	.\gen\com\hapi\hapicommander\R.java	/^        public static final int ebk_file=0x7f020004;$/;"	f	class:R.drawable
+endTransaction	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public void endTransaction()$/;"	m	class:FileCacheDB
+file_menu	.\gen\com\hapi\hapicommander\R.java	/^        public static final int file_menu=0x7f060000;$/;"	f	class:R.menu
+filepath	.\gen\com\hapi\hapicommander\R.java	/^        public static final int filepath=0x7f020005;$/;"	f	class:R.drawable
+folder	.\gen\com\hapi\hapicommander\R.java	/^        public static final int folder=0x7f020006;$/;"	f	class:R.drawable
+getCount	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public long getCount()$/;"	m	class:FileCacheDB
+getCount	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public long getCount()$/;"	m	class:FileDataProvider
+getCount	.\src\com\hapi\hapicommander\FileListAdapter.java	/^	public int getCount()$/;"	m	class:FileListAdapter
+getCurrentDirectory	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public File getCurrentDirectory()$/;"	m	class:FileDataProvider
+getCurrentDirectory	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    public File getCurrentDirectory()$/;"	m	class:FileListAdapter
+getDefaultIconFromExtension	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^    public int getDefaultIconFromExtension(String extension) $/;"	m	class:MimeTypeMap
+getFile	.\src\com\hapi\hapicommander\FileListEntry.java	/^	public File getFile()$/;"	m	class:FileListEntry
+getFileExtensionFromName	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^     public static String getFileExtensionFromName(String filename) $/;"	m	class:MimeTypeMap
+getFileExtensionFromUrl	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^    public static String getFileExtensionFromUrl(String url) $/;"	m	class:MimeTypeMap
+getIcon	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^        public int getIcon()$/;"	m	class:MimeTypeMap.MimeTypeItem
+getInstance	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public static synchronized FileCacheDB getInstance(Context context)$/;"	m	class:FileCacheDB
+getItem	.\src\com\hapi\hapicommander\FileListAdapter.java	/^	public FileListEntry getItem(int position)$/;"	m	class:FileListAdapter
+getItemId	.\src\com\hapi\hapicommander\FileListAdapter.java	/^	public long getItemId(int position)$/;"	m	class:FileListAdapter
+getMimeType	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^        public final String getMimeType()$/;"	m	class:MimeTypeMap.MimeTypeItem
+getMimeTypeFromExtension	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^    public String getMimeTypeFromExtension(String extension) $/;"	m	class:MimeTypeMap
+getOnGetRowView	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    public final OnGetRowView getOnGetRowView() $/;"	m	class:FileListAdapter
+getSingleton	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^    public static MimeTypeMap getSingleton() $/;"	m	class:MimeTypeMap
+getView	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    public View getView(int position, View convertView, ViewGroup parent) $/;"	m	class:FileListAdapter
+hasExtension	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^    public boolean hasExtension(String extension) $/;"	m	class:MimeTypeMap
+hello	.\gen\com\hapi\hapicommander\R.java	/^        public static final int hello=0x7f050000;$/;"	f	class:R.string
+icon	.\gen\com\hapi\hapicommander\R.java	/^        public static final int icon=0x7f020007;$/;"	f	class:R.drawable
+id	.\gen\com\hapi\hapicommander\R.java	/^    public static final class id {$/;"	c	class:R
+image_file	.\gen\com\hapi\hapicommander\R.java	/^        public static final int image_file=0x7f020008;$/;"	f	class:R.drawable
+image_fileicon	.\gen\com\hapi\hapicommander\R.java	/^        public static final int image_fileicon=0x7f070002;$/;"	f	class:R.id
+init	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private void init(Context context,String path,int order_by,FileFilter filter) $/;"	m	class:FileDataProvider	file:
+init	.\src\com\hapi\hapicommander\FileListAdapter.java	/^	private void init(Context context,int resource,FileDataProvider provider)$/;"	m	class:FileListAdapter	file:
+isCursorValid	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private boolean isCursorValid(int position)$/;"	m	class:FileDataProvider	file:
+isEmpty	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    public boolean isEmpty()$/;"	m	class:FileListAdapter
+isMark	.\src\com\hapi\hapicommander\FileListEntry.java	/^	public boolean isMark()$/;"	m	class:FileListEntry
+jpeg_file	.\gen\com\hapi\hapicommander\R.java	/^        public static final int jpeg_file=0x7f020009;$/;"	f	class:R.drawable
+layout	.\gen\com\hapi\hapicommander\R.java	/^    public static final class layout {$/;"	c	class:R
+list_filelist	.\gen\com\hapi\hapicommander\R.java	/^        public static final int list_filelist=0x7f070001;$/;"	f	class:R.id
+loadEntry	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^    private void loadEntry(String mimeType,String extension) $/;"	m	class:MimeTypeMap	file:
+loadEntry	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^    private void loadEntry(String mimeType,String extension,int icon) $/;"	m	class:MimeTypeMap	file:
+mCacheCount	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private long						mCacheCount				=		0;$/;"	f	class:FileDataProvider	file:
+mContext	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private Context 					mContext				=		null;$/;"	f	class:FileDataProvider	file:
+mContext	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    private Context                 mContext           =       null;$/;"	f	class:FileListAdapter	file:
+mCurrentDirectory	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private File 						mCurrentDirectory		=		null;$/;"	f	class:FileDataProvider	file:
+mCursor	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private Cursor						mCursor					=		null;$/;"	f	class:FileDataProvider	file:
+mCursorLimit	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private int 						mCursorLimit			=		-1;$/;"	f	class:FileDataProvider	file:
+mCursorOffset	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private int 						mCursorOffset			=		-1;$/;"	f	class:FileDataProvider	file:
+mDB	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private FileCacheDB 				mDB						=		null;$/;"	f	class:FileDataProvider	file:
+mDatabase	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private SQLiteDatabase                  mDatabase = null;$/;"	f	class:FileCacheDB	file:
+mDeleteAllStatement	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private SQLiteStatement                 mDeleteAllStatement;$/;"	f	class:FileCacheDB	file:
+mDeleteStatement	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private SQLiteStatement                 mDeleteStatement;$/;"	f	class:FileCacheDB	file:
+mExtensionToMimeTypeMap	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^    private HashMap<String, MimeTypeItem> mExtensionToMimeTypeMap;$/;"	f	class:MimeTypeMap	file:
+mFile	.\src\com\hapi\hapicommander\FileListEntry.java	/^	private File mFile;$/;"	f	class:FileListEntry	file:
+mFileNameColIndex	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private static int                      mFileNameColIndex;$/;"	f	class:FileCacheDB	file:
+mFilter	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private FileFilter 					mFilter 				= 		null;$/;"	f	class:FileDataProvider	file:
+mGetCountStatement	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private SQLiteStatement                 mGetCountStatement;$/;"	f	class:FileCacheDB	file:
+mIcon	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^        private int    mIcon;$/;"	f	class:MimeTypeMap.MimeTypeItem	file:
+mInflater	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    private LayoutInflater          mInflater;$/;"	f	class:FileListAdapter	file:
+mInserter	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private DatabaseUtils.InsertHelper      mInserter;$/;"	f	class:FileCacheDB	file:
+mInstance	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private static FileCacheDB              mInstance = null;$/;"	f	class:FileCacheDB	file:
+mIsMarked	.\src\com\hapi\hapicommander\FileListEntry.java	/^	private boolean mIsMarked;$/;"	f	class:FileListEntry	file:
+mLastmodifyColIndex	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private static int                      mLastmodifyColIndex;$/;"	f	class:FileCacheDB	file:
+mListAdapter	.\src\com\hapi\hapicommander\HapiCommander.java	/^    private FileListAdapter     mListAdapter = null;$/;"	f	class:HapiCommander	file:
+mListView	.\src\com\hapi\hapicommander\HapiCommander.java	/^    private ListView            mListView= null;$/;"	f	class:HapiCommander	file:
+mLock	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private final Object                    mLock     = new Object();$/;"	f	class:FileCacheDB	file:
+mMarkAllStatement	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private SQLiteStatement                 mMarkAllStatement;$/;"	f	class:FileCacheDB	file:
+mMarkColIndex	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private static int                      mMarkColIndex;$/;"	f	class:FileCacheDB	file:
+mMarkStatement	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private SQLiteStatement                 mMarkStatement;$/;"	f	class:FileCacheDB	file:
+mMimetype	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^        private String mMimetype;$/;"	f	class:MimeTypeMap.MimeTypeItem	file:
+mOnClickListener	.\src\com\hapi\hapicommander\HapiCommander.java	/^    private AdapterView.OnItemClickListener mOnClickListener = new AdapterView.OnItemClickListener() {$/;"	f	class:HapiCommander	file:
+mOnGetRowView	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    private OnGetRowView            mOnGetRowView      =       null;$/;"	f	class:FileListAdapter	file:
+mOrderBy	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private String                      mOrderBy				=       FileCacheDB.ORDER_BY_NAME;  $/;"	f	class:FileDataProvider	file:
+mPathView	.\src\com\hapi\hapicommander\HapiCommander.java	/^    private TextView            mPathView= null;$/;"	f	class:HapiCommander	file:
+mProvider	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    private FileDataProvider        mProvider           =       null;$/;"	f	class:FileListAdapter	file:
+mResource	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    private int                     mResource; $/;"	f	class:FileListAdapter	file:
+mSizeColIndex	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private static int                      mSizeColIndex;$/;"	f	class:FileCacheDB	file:
+mTypeColIndex	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private static int                      mTypeColIndex;$/;"	f	class:FileCacheDB	file:
+mUpdateNameStatement	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    private SQLiteStatement                 mUpdateNameStatement;$/;"	f	class:FileCacheDB	file:
+m_type	.\src\com\hapi\hapicommander\FileComparator.java	/^	private Types m_type;$/;"	f	class:FileComparator	file:
+main	.\gen\com\hapi\hapicommander\R.java	/^        public static final int main=0x7f030001;$/;"	f	class:R.layout
+mark	.\gen\com\hapi\hapicommander\R.java	/^        public static final int mark=0x7f05000a;$/;"	f	class:R.string
+mark	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public boolean mark(String filename, boolean is_mark)$/;"	m	class:FileCacheDB
+markAll	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public boolean markAll(boolean is_mark)$/;"	m	class:FileCacheDB
+markAll	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public void markAll() $/;"	m	class:FileDataProvider
+markAllImpl	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private void markAllImpl(boolean marked) $/;"	m	class:FileDataProvider	file:
+markFile	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public boolean markFile(int position,boolean is_mark) $/;"	m	class:FileDataProvider
+mark_all	.\gen\com\hapi\hapicommander\R.java	/^        public static final int mark_all=0x7f05000c;$/;"	f	class:R.string
+marked	.\gen\com\hapi\hapicommander\R.java	/^        public static final int marked=0x7f02000a;$/;"	f	class:R.drawable
+menu	.\gen\com\hapi\hapicommander\R.java	/^    public static final class menu {$/;"	c	class:R
+menuGroup_File	.\gen\com\hapi\hapicommander\R.java	/^        public static final int menuGroup_File=0x7f070005;$/;"	f	class:R.id
+menu_copy	.\gen\com\hapi\hapicommander\R.java	/^        public static final int menu_copy=0x7f070008;$/;"	f	class:R.id
+menu_createdir	.\gen\com\hapi\hapicommander\R.java	/^        public static final int menu_createdir=0x7f070006;$/;"	f	class:R.id
+menu_cut	.\gen\com\hapi\hapicommander\R.java	/^        public static final int menu_cut=0x7f070009;$/;"	f	class:R.id
+menu_delete	.\gen\com\hapi\hapicommander\R.java	/^        public static final int menu_delete=0x7f07000b;$/;"	f	class:R.id
+menu_details	.\gen\com\hapi\hapicommander\R.java	/^        public static final int menu_details=0x7f07000e;$/;"	f	class:R.id
+menu_mark	.\gen\com\hapi\hapicommander\R.java	/^        public static final int menu_mark=0x7f07000c;$/;"	f	class:R.id
+menu_markAll	.\gen\com\hapi\hapicommander\R.java	/^        public static final int menu_markAll=0x7f07000d;$/;"	f	class:R.id
+menu_paste	.\gen\com\hapi\hapicommander\R.java	/^        public static final int menu_paste=0x7f07000a;$/;"	f	class:R.id
+menu_rename	.\gen\com\hapi\hapicommander\R.java	/^        public static final int menu_rename=0x7f070007;$/;"	f	class:R.id
+navigateTo	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private boolean navigateTo(File f) $/;"	m	class:FileDataProvider	file:
+navigateTo	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public boolean navigateTo(int position) $/;"	m	class:FileDataProvider
+navigateTo	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    public void navigateTo(int position)$/;"	m	class:FileListAdapter
+onCreate	.\src\com\hapi\hapicommander\HapiCommander.java	/^    public void onCreate(Bundle savedInstanceState) $/;"	m	class:HapiCommander
+onCreateOptionsMenu	.\src\com\hapi\hapicommander\HapiCommander.java	/^    public boolean onCreateOptionsMenu(Menu menu)$/;"	m	class:HapiCommander
+onGetView	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    	public void onGetView(int position, View view, Cursor cursor)$/;"	m	class:FileListAdapter.OnListTypeGetRowView
+onGetView	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    	public void onGetView(int position, View view, Cursor cusor)$/;"	m	class:FileListAdapter.OnDetailsTypeGetRowView
+onGetView	.\src\com\hapi\hapicommander\FileListAdapter.java	/^        void onGetView(int position, View view, Cursor cusor);$/;"	m	interface:FileListAdapter.OnGetRowView
+onListItemClick	.\src\com\hapi\hapicommander\HapiCommander.java	/^    public void onListItemClick(ListView listview, View v, int position, long id)$/;"	m	class:HapiCommander
+paste	.\gen\com\hapi\hapicommander\R.java	/^        public static final int paste=0x7f050009;$/;"	f	class:R.string
+pdf_file	.\gen\com\hapi\hapicommander\R.java	/^        public static final int pdf_file=0x7f02000b;$/;"	f	class:R.drawable
+ps_file	.\gen\com\hapi\hapicommander\R.java	/^        public static final int ps_file=0x7f02000c;$/;"	f	class:R.drawable
+query	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public Cursor query(String name)$/;"	m	class:FileCacheDB
+query	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public Cursor query(String order_by, int offset,int limit )$/;"	m	class:FileCacheDB
+query	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public Cursor query(int position)$/;"	m	class:FileDataProvider
+queryFromDB	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	private int queryFromDB(int position)$/;"	m	class:FileDataProvider	file:
+refresh	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public boolean refresh() $/;"	m	class:FileDataProvider
+refresh	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    public void refresh()$/;"	m	class:FileListAdapter
+rename	.\gen\com\hapi\hapicommander\R.java	/^        public static final int rename=0x7f050004;$/;"	f	class:R.string
+rename	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public boolean rename(int position,String new_name)$/;"	m	class:FileDataProvider
+root	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public boolean root() $/;"	m	class:FileDataProvider
+root	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    public void root()$/;"	m	class:FileListAdapter
+row_list	.\gen\com\hapi\hapicommander\R.java	/^        public static final int row_list=0x7f030002;$/;"	f	class:R.layout
+sMimeTypeMap	.\src\com\hapi\hapicommander\MimeTypeMap.java	/^    private static MimeTypeMap sMimeTypeMap;$/;"	f	class:MimeTypeMap	file:
+search	.\gen\com\hapi\hapicommander\R.java	/^        public static final int search=0x7f02000d;$/;"	f	class:R.drawable
+searchable	.\gen\com\hapi\hapicommander\R.java	/^        public static final int searchable=0x7f040000;$/;"	f	class:R.xml
+setDetailsTypeOnGetRowView	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    public void setDetailsTypeOnGetRowView() $/;"	m	class:FileListAdapter
+setListTypeOnGetRowView	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    public void setListTypeOnGetRowView() $/;"	m	class:FileListAdapter
+setOnGetRowView	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    public void setOnGetRowView(OnGetRowView getview) $/;"	m	class:FileListAdapter
+string	.\gen\com\hapi\hapicommander\R.java	/^    public static final class string {$/;"	c	class:R
+swf_file	.\gen\com\hapi\hapicommander\R.java	/^        public static final int swf_file=0x7f02000e;$/;"	f	class:R.drawable
+text_file	.\gen\com\hapi\hapicommander\R.java	/^        public static final int text_file=0x7f02000f;$/;"	f	class:R.drawable
+text_name	.\gen\com\hapi\hapicommander\R.java	/^        public static final int text_name=0x7f070003;$/;"	f	class:R.id
+text_path	.\gen\com\hapi\hapicommander\R.java	/^        public static final int text_path=0x7f070000;$/;"	f	class:R.id
+text_size	.\gen\com\hapi\hapicommander\R.java	/^        public static final int text_size=0x7f070004;$/;"	f	class:R.id
+unMarkAll	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public void unMarkAll() $/;"	m	class:FileDataProvider
+unmark	.\gen\com\hapi\hapicommander\R.java	/^        public static final int unmark=0x7f05000b;$/;"	f	class:R.string
+unmark_all	.\gen\com\hapi\hapicommander\R.java	/^        public static final int unmark_all=0x7f05000d;$/;"	f	class:R.string
+up	.\src\com\hapi\hapicommander\FileDataProvider.java	/^	public boolean up() $/;"	m	class:FileDataProvider
+up	.\src\com\hapi\hapicommander\FileListAdapter.java	/^    public void up()$/;"	m	class:FileListAdapter
+updateName	.\src\com\hapi\hapicommander\FileCacheDB.java	/^    public boolean updateName(String old_name, String new_name)$/;"	m	class:FileCacheDB
+video_file	.\gen\com\hapi\hapicommander\R.java	/^        public static final int video_file=0x7f020010;$/;"	f	class:R.drawable
+xml	.\gen\com\hapi\hapicommander\R.java	/^    public static final class xml {$/;"	c	class:R
+xml_file	.\gen\com\hapi\hapicommander\R.java	/^        public static final int xml_file=0x7f020011;$/;"	f	class:R.drawable

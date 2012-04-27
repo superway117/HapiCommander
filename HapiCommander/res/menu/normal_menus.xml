@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- This group uses the default category. -->
+	<group android:id="@+id/menuGroup_normal">
+		<item android:id="@+id/menu_createdir" 
+			  android:orderInCategory="1" 
+			  android:title="@string/create_dir" />
+		<item android:id="@+id/menu_paste" 
+			  android:orderInCategory="2" 
+			  android:title="@string/paste" />
+		<item android:id="@+id/menu_deleteAll" 
+			  android:orderInCategory="3" 
+			  android:title="@string/delete_all" />
+		<item android:id="@+id/menu_markAll" 
+			  android:orderInCategory="4" 
+			  android:title="@string/mark_all" />
+		<item android:id="@+id/menu_unmarkAll" 
+			  android:orderInCategory="5" 
+			  android:title="@string/unmark_all" />
+		<item android:id="@+id/menu_copyMarks" 
+			  android:orderInCategory="6" 
+			  android:title="@string/copy_marks" />
+		<item android:id="@+id/menu_cutMarks" 
+			  android:orderInCategory="7" 
+			  android:title="@string/cut_marks" />  	  
+		<item android:id="@+id/menu_deleteMarks" 
+			  android:orderInCategory="8" 
+			  android:title="@string/delete_marks" />
+	</group>
+</menu>

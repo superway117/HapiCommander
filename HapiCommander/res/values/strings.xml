@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HapiCommander!</string>
+    <string name="app_name">HapiCommander</string>
+    <string name="delete">Delete</string>
+    <string name="delete_all">Delete All</string>
+    <string name="rename">Rename</string>
+    <string name="create_dir">Create Dir</string>
+    <string name="details">Details</string>
+    <string name="copy">Copy</string>
+    <string name="cut">Cut</string>
+    <string name="paste">Paste</string>
+    <string name="mark">Mark</string>
+    <string name="unmark">Unmark</string>
+    <string name="mark_all">Mark All</string>
+    <string name="unmark_all">Unmark All</string>
+    <string name="delete_marks">Delete Marked</string>
+    <string name="copy_marks">Copy Marked</string>
+    <string name="cut_marks">Cut Marked</string>
+</resources>

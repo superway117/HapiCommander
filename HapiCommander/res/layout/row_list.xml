@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:layout_width="fill_parent"
+  >
+  
+	<ImageView 
+		android:id="@+id/image_fileicon" 
+		android:minWidth="20px" 
+		android:layout_width="wrap_content" 
+		android:layout_weight="0" 
+		android:layout_marginRight="2px" 
+		android:layout_height="fill_parent" 
+		android:layout_gravity="left|center_vertical|fill_vertical"
+		android:minHeight="?android:attr/listPreferredItemHeight"
+		android:gravity="center_vertical"
+		android:paddingLeft="6dip"
+		>
+		
+	</ImageView>
+	
+	<LinearLayout 
+		android:layout_height="wrap_content" 
+		android:layout_gravity="left|fill_horizontal" 
+		android:layout_width="fill_parent"
+		android:minHeight="?android:attr/listPreferredItemHeight"
+		>
+		
+		<TextView
+			android:id="@+id/text_name"
+			android:text="file name" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:layout_gravity="left|center_vertical" 
+			android:layout_width="fill_parent" 
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:gravity="center_vertical"
+			android:paddingLeft="6dip"
+			
+			>
+		</TextView>
+		<TextView
+			android:id="@+id/text_size"
+			android:text="" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:gravity="right|center_vertical" 
+			android:layout_gravity="right|center_vertical" 
+			android:layout_width="fill_parent" 
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:paddingRight="50dip"
+			>
+		</TextView>
+		
+	</LinearLayout>
+
+
+</LinearLayout>
